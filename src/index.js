@@ -1,11 +1,11 @@
-let nickname = "Tommyboy";
-let xpAmount = "10250"; // Número para comparação correta
-let level = ""; // Variável para armazenar o resultado do switch case
+let nickname = "Tommyboy"; //*Insert your nickname
+let xpAmount = "10250"; // *Insert your xp amount
+let level = ""; // Variable to store the switch case result
 
 switch (true) {
 
     case (xpAmount < 1000):
-        level = "Ferro";
+        level = "Iron";
         break;
 
     case (xpAmount >= 1001 && xpAmount <= 2000):
@@ -13,38 +13,38 @@ switch (true) {
         break;
 
     case (xpAmount >= 2001 && xpAmount <= 3000):
-        level = "Prata";
+        level = "Silver";
         break;
 
     case (xpAmount >= 3001 && xpAmount <= 4000):
-        level = "Ouro";
+        level = "Gold";
         break;
 
     case (xpAmount >= 4001 && xpAmount <= 6000):
-        level = "Platina";
+        level = "Platinum";
         break;
 
     case (xpAmount >= 6001 && xpAmount <= 8000):
-        level = "Diamante";
+        level = "Diamond";
         break;
 
     case (xpAmount >= 8001 && xpAmount <= 9000):
-        level = "Ascendente";
+        level = "Ascendant";
         break;
 
     case (xpAmount >= 9001 && xpAmount <= 10000):
-        level = "Imortal";
+        level = "Immortal";
         break;
 
     case (xpAmount >= 10001):
-        level = "Radiante";
+        level = "Radiant";
         break;
 
     default:
-        level = "Classificação inexistente";
+        level = "nonexistent";
 
 }
 
-// Exibição da mensagem completa
+// Display the final message
 
-console.log("O herói " + nickname + " tem nível " + level);
+console.log("The hero " + nickname + " has level " + level);
